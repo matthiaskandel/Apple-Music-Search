@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Generated icons (keep SVG source only)
+# Uncomment if you want to exclude generated PNGs
+# icons/*.png
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode (if using xcrun safari-web-extension-converter)
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+build/
+dist/
+*.safariextz

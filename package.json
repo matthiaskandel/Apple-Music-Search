@@ -1,0 +1,20 @@
+{
+  "name": "search-in-apple-music",
+  "version": "1.0.0",
+  "description": "Safari extension to search selected text in Apple Music desktop app",
+  "scripts": {
+    "generate-icons": "node scripts/generate-icons.js"
+  },
+  "keywords": [
+    "safari",
+    "extension",
+    "apple-music",
+    "search",
+    "context-menu"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "sharp": "^0.33.0"
+  }
+}
